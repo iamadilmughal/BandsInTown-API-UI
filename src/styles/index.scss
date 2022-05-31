@@ -1,0 +1,26 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.flex {
+  display: flex
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+
+.app-content {
+  height: 95vh;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
