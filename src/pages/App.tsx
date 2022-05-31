@@ -57,7 +57,7 @@ function App() {
                             paddingTop: "10vh",
                         }}
                     >
-                        <ArtistDetails data-id="artist-detail" artist={artistData} events={eventsData} />
+                        <ArtistDetails data-testid="artist-detail" artist={artistData} events={eventsData} />
                     </Box>
                 )}
             </div>

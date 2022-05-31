@@ -1,5 +1,5 @@
 import axios from "axios";
-import { APP_ID, BASE_URL } from "../constants/constants";
+import { APP_ID, BASE_URL } from "../constants";
 import { Artist } from "../types/Artist";
 import { Event } from "../types/Event";
 

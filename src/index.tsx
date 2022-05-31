@@ -4,7 +4,7 @@ import "./styles/index.scss";
 import App from "./pages/App";
 import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "@mui/system";
-import theme from "./theme/theme";
+import theme from "./theme";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(

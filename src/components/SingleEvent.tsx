@@ -1,6 +1,6 @@
 import { Box, Button, Grid, Typography } from "@mui/material";
 import React from "react";
-import { MONTHS } from "../constants/constants";
+import { MONTHS } from "../constants";
 import { SingleEventPropsType } from "../types/Props";
 
 const SingleEvent = ({ event, isEven }: SingleEventPropsType) => {
