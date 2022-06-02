@@ -4,6 +4,11 @@ import { MONTHS } from "../constants";
 import { SingleEventPropsType } from "../types/Props";
 
 const SingleEvent = ({ event, isEven }: SingleEventPropsType) => {
+
+    const goToEvent = () => {
+        window.open(event.url, "_blank")?.focus();
+    }
+
     return (
         <Box
             sx={{
@@ -65,6 +70,7 @@ const SingleEvent = ({ event, isEven }: SingleEventPropsType) => {
                             color: "white",
                             boxShadow: "unset",
                         }}
+                        onClick={goToEvent}
                         variant="contained"
                     >
                         View More
